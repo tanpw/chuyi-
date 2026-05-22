@@ -1,0 +1,28 @@
+《碧绿蒸肉丸》	味形:肉香内劲
+材料:猪肉碎:300克√ -菠菜:200克√ -鸡蛋:1个 -姜末:适量 -葱花:适量 -盐:适量√
+-白胡椒粉:适量 -生抽:适量√ - 料酒:适量 -淀粉:适量 -香油:适量。
+
+工艺流程：
+1.将猪肉碎放入大碗中，加入姜末、葱花、盐、白胡椒粉、生抽、料酒、鸡蛋和适量淀粉。
+-顺时针方向搅拌均匀，直至肉碎上劲。
+2 菜心洗净改刀去头
+3.取肉糜，用手搓成大小均匀的肉丸。
+4 将菜心灼水起锅炒香上碟。
+5、将肉丸放入蒸盘中，注意肉丸之间留有一定间隙。
+6、蒸锅加水烧开，放入蒸盘。
+7、盖上锅盖，大火蒸约15分钟。
+8、碧绿蒸肉丸蒸好后取出，撒上少许葱花或香菜点缀。
+
+
+
+
+下面给出几组可直接用于AI生图的悟空提示词，覆盖五官、穿衣打扮、身材高矮肥瘦等特征，供你按需选用或混合使用。
+
+提示词1（写实动漫风）
+"Ultra-detailed semi-realistic anime-style Goku in base form from Dragon Ball. Facial features: spiky black hair, thick eyebrows, large dark eyes with a determined yet friendly gaze, a strong jawline, and a confident smile. Clothing: iconic orange gi with blue undershirt, blue belt, blue wristbands, and blue boots with orange accents. Physique: athletic and muscular, proportion around 8 heads tall, average-to-tall height for a martial artist. Pose: dynamic action-ready stance, one fist forward, other hand relaxed by side, subtle energy aura. Lighting: bright, high-contrast with rich shading. Background: simple gradient or battlefield blur to emphasize character. Style: clean linework, textured shading, high resolution."
+
+提示词2（经典动漫风）
+"Classic anime-style Dragon Ball Goku in base form. Five官: sharp spiky black hair, bold eyebrows, big expressive dark eyes, defined cheekbones, and a confident smirk. Outfit: orange gi with blue undershirt, blue belt, blue wristbands, blue boots with orange accents. Body type: athletic and well-proportioned, ~8頭身, height typical for a martial artist. Pose: energetic, ready-to-fight stance, one leg slightly bent, fists ready. Lighting: vibrant colors, strong contrast, bold outlines. Background: flat or simple gradient to keep focus on character."
+
+提示词3（偏写实+3D质感）
+"Semi-realistic, almost 3D-rendered Goku in base form. 五官：尖刺状黑发、浓眉、明亮的深色眼睛、轮廓分明的下巴，表情坚毅但带点友善。穿着：橙色道服，蓝色内衣、腰带、护腕、靴子，配色蓝橙对比明显。身材：健壮、肌肉线条清晰，身高比例约8头身。姿势：动态格斗姿势，双手动作姿态感强，周围隐约能量光环。光影：细腻的纹理与高光，真实材质感。背景：逐渐虚化的战斗场景或简洁背景。分辨率：高，适合4K输出。"

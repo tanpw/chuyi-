@@ -1,0 +1,12 @@
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.m4v
+*.mp3
+*.wav
+*.flac
+.DS_Store
+Thumbs.db

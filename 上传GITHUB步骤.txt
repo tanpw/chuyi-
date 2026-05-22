@@ -1,0 +1,124 @@
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com",
+    "https://docker.mirrors.ustc.edu.cn"
+  ]
+}# GitHub 项目上传步骤总结
+
+## 一、准备工作
+1. 在 GitHub 上创建一个新仓库
+2. 获取仓库的 HTTPS 或 SSH URL（如：https://github.com/username/repo-name.git）
+3. 确保本地项目目录已初始化 Git
+
+## 二、基础步骤
+
+### 1. 初始化 Git 仓库（首次使用）
+```bash
+cd /path/to/your/project
+git init
+```
+
+### 2. 配置用户信息
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+### 3. 添加远程仓库
+```bash
+git remote add origin https://github.com/username/repo-name.git
+```
+
+### 4. 添加所有文件
+```bash
+git add -A
+```
+
+### 5. 提交更改
+```bash
+git commit -m "Initial commit"
+```
+
+### 6. 推送到 GitHub
+```bash
+git push -u origin main
+```
+
+## 三、常见问题处理
+
+### 问题1：大文件超过 GitHub 限制（100MB）
+**错误信息**：
+```
+remote: error: File xxx.mp4 is 140.20 MB; this exceeds GitHub's file size limit of 100.00 MB
+```
+
+**解决方案**：
+1. 从 Git 中移除大文件：
+```bash
+git rm --cached "path/to/large/file.mp4"
+```
+
+2. 创建或更新 .gitignore 文件：
+```bash
+echo "path/to/large/file.mp4" >> .gitignore
+git add .gitignore
+```
+
+3. 修改提交：
+```bash
+git commit --amend -m "Initial commit (exclude large files)"
+git push origin main --force
+```
+
+### 问题2：需要身份验证
+- 推送时会提示输入 GitHub 用户名和密码
+- 如果启用了双因素认证，需要使用 **Personal Access Token** 作为密码
+
+## 四、成功验证
+推送成功后会显示类似信息：
+```
+Enumerating objects: xxx, done.
+Counting objects: 100% (xxx/xxx), done.
+Writing objects: 100% (xxx/xxx), xxx MiB | xxx KiB/s, done.
+Total xxx (delta xxx), reused xxx (delta xxx), pack-reused xxx
+To https://github.com/username/repo-name.git
+ * [new branch]      main -> main
+```
+
+## 五、后续操作
+- 日常开发：修改文件 → git add → git commit → git push
+- 查看状态：git status
+- 查看日志：git log
+
+---
+生成时间：2026年5月21日
+cat > windows10.yml << EOF
+services:
+windows:
+image: dockurr/windows
+container_name: windows
+environment:
+VERSION: "10l"
+USERNAME: "apepine"
+PASSWORD: "apepine123"
+RAM_SIZE: "4G"
+CPU_CORES: "4"
+DISK_SIZE: "400G"
+DISK2_SIZE: "100G"
+LANGUAGE: "Chinese"
+REGION: "zh_CN"
+KEYBOARD: "cn"
+
+devices:
+- /dev/kvm
+- /dev/net/tun
+cap_add:
+- NET_ADMIN
+ports:
+- "8006:8006"
+- "3389:3389/tcp"
+- "3389:3389/udp"
+stop_grace_period: 2m
+
+EOF

@@ -1,0 +1,32 @@
+import os
+from cursor import ClaudeModel  # 假设 cursor 库支持 Claude 模型
+
+# 初始化 Claude 模型
+claude = ClaudeModel(version="3.7")
+
+# 定义文件路径
+input_file = "e:\\my books\\z.txt"
+output_file_n = "e:\\my books\\n.txt"
+output_file_n_plus_1 = "e:\\my books\\n+1.txt"
+
+# 读取 z.txt 的内容
+with open(input_file, "r", encoding="utf-8") as file:
+    content = file.read()
+
+# 生成小说
+def generate_novel(prompt):
+    # 调用 Claude 模型生成文本
+    novel = claude.generate(prompt, max_tokens=1000)  # 假设生成 1000 个 token
+    return novel
+
+# 生成 n.txt 的小说
+novel_n = generate_novel(content)
+with open(output_file_n, "w", encoding="utf-8") as file:
+    file.write(novel_n)
+
+# 生成 n+1.txt 的小说
+novel_n_plus_1 = generate_novel(content)
+with open(output_file_n_plus_1, "w", encoding="utf-8") as file:
+    file.write(novel_n_plus_1)
+
+print("小说生成完成并保存到 n.txt 和 n+1.txt 中！")
